@@ -28,9 +28,10 @@
     "title": "Crew-ul",
     "sub": "Șase oameni, un singur balaur. Fiecare cap are propriul main, propriul rank și propriile momente de care ne e rușine colectiv.",
     "flipHint": "Atinge cardul pentru persona",
-    "statWins": "victorii",
-    "statHours": "ore în voice",
-    "statMain": "main"
+    "statAttack": "Atac",
+    "statDefense": "Apărare",
+    "statMind": "Minte",
+    "statCharisma": "Carismă"
   },
   "games": {
     "kicker": "Terenul de joacă",

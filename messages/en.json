@@ -28,9 +28,10 @@
     "title": "The Crew",
     "sub": "Six people, one balaur. Every head has its own main, its own rank and its own moments we're collectively ashamed of.",
     "flipHint": "Tap the card for the persona",
-    "statWins": "wins",
-    "statHours": "hours in voice",
-    "statMain": "main"
+    "statAttack": "Attack",
+    "statDefense": "Defense",
+    "statMind": "Mind",
+    "statCharisma": "Charisma"
   },
   "games": {
     "kicker": "The playground",
