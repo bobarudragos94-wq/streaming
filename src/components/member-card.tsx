@@ -232,10 +232,6 @@ export function MemberCard({
               </div>
             </div>
 
-            <p className="mt-4 text-[12.5px] leading-relaxed text-dim">
-              {member.persona.lore[locale]}
-            </p>
-
             <div className="mt-auto space-y-2.5 pt-4">
               {statRows.map(([label, value], i) => (
                 <div key={label} className="flex items-center gap-2.5">
