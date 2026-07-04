@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "crew": "Crew",
+    "games": "Jocuri",
+    "clips": "Clipuri",
+    "schedule": "Program",
+    "sponsors": "Parteneri",
+    "contact": "Contact",
+    "discord": "Intră în Discord"
+  },
+  "hero": {
+    "eyebrow": "Crew românesc de gaming & streaming",
+    "tagline": "Șase capete. Un singur lobby.",
+    "sub": "Jucăm online, jucăm pe masă, filmăm haosul. Streamuri, provocări IRL și seri de Catan care strică prietenii — toate sub același acoperiș.",
+    "ctaPrimary": "Intră în lobby",
+    "ctaSecondary": "Cunoaște crew-ul",
+    "lobbyTitle": "Starea lobby-ului",
+    "demoNote": "date demo"
+  },
+  "status": {
+    "live": "LIVE",
+    "queue": "ÎN QUEUE",
+    "recording": "FILMEAZĂ",
+    "offline": "OFFLINE"
+  },
+  "crew": {
+    "kicker": "Capetele balaurului",
+    "title": "Crew-ul",
+    "sub": "Șase oameni, un singur balaur. Fiecare cap are propriul main, propriul rank și propriile momente de care ne e rușine colectiv.",
+    "flipHint": "Atinge cardul pentru persona",
+    "statWins": "victorii",
+    "statHours": "ore în voice",
+    "statMain": "main"
+  },
+  "games": {
+    "kicker": "Terenul de joacă",
+    "title": "Ce jucăm",
+    "online": "Online",
+    "onlineDesc": "Ranked până ne ceartă vecinii.",
+    "board": "Pe masă",
+    "boardDesc": "Catan, trădări și alianțe frânte.",
+    "party": "Party games",
+    "partyDesc": "Haos controlat, pentru clipuri.",
+    "irl": "IRL Challenges",
+    "irlDesc": "Provocări în lumea reală, fără save points. Pierzătorul plătește — mereu."
+  },
+  "clips": {
+    "kicker": "Ultimele haosuri",
+    "title": "Clipuri & momente",
+    "watch": "Vezi pe",
+    "soon": "Canalele se lansează odată cu crew-ul — clipurile apar aici."
+  },
+  "schedule": {
+    "kicker": "Când ne găsești",
+    "title": "Program & evenimente",
+    "upcoming": "Urmează",
+    "tz": "Ora României (EET)"
+  },
+  "story": {
+    "kicker": "Povestea",
+    "title": "Un balaur cu șase capete",
+    "p1": "În folclorul românesc, balaurul e creatura cu mai multe capete care păzește comori. Al nostru păzește un lobby: șase prieteni din România care s-au cunoscut prin jocuri și au rămas pentru haos.",
+    "p2": "Nu suntem o organizație de esports cu birouri și contracte. Suntem casa în care se strigă la Valorant, se negociază oi la Catan și se filmează provocări pe care le regretăm a doua zi. Streamuri, clipuri, turnee între noi — și, în curând, cu voi.",
+    "statMembers": "capete",
+    "statGames": "jocuri în rotație",
+    "statRage": "rage quit-uri",
+    "statFriendship": "prietenie"
+  },
+  "sponsors": {
+    "kicker": "Lumini aprinse",
+    "title": "Partener cu balaurul",
+    "body": "Construim o audiență de gaming din România — autentică, activă și greu de plictisit. Dacă brandul tău vrea în lobby, hai să vorbim înainte să se ocupe sloturile.",
+    "slot": "Slot disponibil",
+    "tierMain": "Partener principal",
+    "tierGear": "Partener de echipament",
+    "tierEvent": "Partener de eveniment",
+    "cta": "Devino partener",
+    "mediaKit": "Media kit — în curând"
+  },
+  "community": {
+    "kicker": "Lobby-ul e deschis",
+    "title": "Intră în comunitate",
+    "body": "Discord-ul e camera noastră de zi: anunțuri de stream, sondaje pentru provocări și canalul unde se decide cine plătește pizza.",
+    "cta": "Intră în Discord",
+    "follow": "Urmărește-ne"
+  },
+  "contact": {
+    "kicker": "Colaborări",
+    "title": "Scrie-ne",
+    "name": "Numele tău",
+    "email": "Email",
+    "type": "Tip colaborare",
+    "typeSponsor": "Sponsorizare / parteneriat",
+    "typeCollab": "Colaborare de conținut",
+    "typeEvent": "Eveniment / turneu",
+    "typeOther": "Altceva",
+    "message": "Mesajul tău",
+    "submit": "Trimite mesajul",
+    "sending": "Se trimite…",
+    "success": "Mesaj trimis! Îți răspundem în 24–48h.",
+    "errorValidation": "Completează toate câmpurile — inclusiv un email valid.",
+    "errorNotConfigured": "Formularul se activează la lansare. Până atunci, scrie-ne direct:",
+    "errorGeneric": "Ceva n-a mers. Încearcă din nou sau scrie-ne direct:"
+  },
+  "footer": {
+    "madeIn": "Făcut cu ♥ și rage quit-uri în România",
+    "rights": "Toate drepturile rezervate.",
+    "placeholderNote": "Site în construcție — date demo"
+  }
+}

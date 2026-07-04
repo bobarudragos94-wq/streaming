@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Neon Lobby palette ─────────────────────────────── */
+  --color-void: #0b0b14; /* page ground — never pure black */
+  --color-abyss: #07070e; /* deepest wells */
+  --color-panel: #14131f; /* raised surfaces */
+  --color-frost: #e9e7fa; /* primary text */
+  --color-dim: #8f8bb0; /* muted text */
+  --color-hairline: #262437; /* borders */
+
+  --color-brand: #7c3aed; /* violet core */
+  --color-brand-soft: #b79cff;
+  --color-ember: #f43f5e; /* rose — LIVE / danger-fun */
+  --color-ember-soft: #fda4af;
+  --color-volt: #22d3ee; /* cyan — data / ranks */
+  --color-volt-soft: #67e8f9;
+  --color-sticker: #ffd84d; /* Casa Haos yellow — funny achievements */
+
+  /* Lights-on sponsor section (Studio direction) */
+  --color-paper: #fafaf7;
+  --color-ink: #16181d;
+  --color-cobalt: #1d4ed8;
+
+  /* ── Type ───────────────────────────────────────────── */
+  --font-display: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --animate-pulse-dot: pulse-dot 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-drift: drift 26s ease-in-out infinite alternate;
+  --animate-drift-slow: drift 38s ease-in-out infinite alternate-reverse;
+
+  @keyframes pulse-dot {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 rgb(244 63 94 / 0.55);
+    }
+    55% {
+      box-shadow: 0 0 0 8px rgb(244 63 94 / 0);
+    }
+  }
+  @keyframes drift {
+    from {
+      transform: translate3d(-4%, -6%, 0) scale(1);
+    }
+    to {
+      transform: translate3d(5%, 7%, 0) scale(1.15);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-frost);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgb(124 58 237 / 0.45);
+  color: #fff;
+}
+
+/* keyboard focus — visible on the dark ground */
+:focus-visible {
+  outline: 2px solid var(--color-brand-soft);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@layer components {
+  /* frosted panel used across the lobby */
+  .glass {
+    background: linear-gradient(
+      160deg,
+      rgb(255 255 255 / 0.055),
+      rgb(255 255 255 / 0.015)
+    );
+    border: 1px solid rgb(139 92 246 / 0.22);
+    backdrop-filter: blur(12px);
+  }
+
+  /* film-grain overlay to kill flat gradients */
+  .grain {
+    position: relative;
+  }
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .text-gradient {
+    background: linear-gradient(
+      100deg,
+      var(--color-frost) 15%,
+      var(--color-brand-soft) 45%,
+      var(--color-ember-soft) 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* game-UI rank chip */
+  .rank-chip {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.06em;
+    padding: 0.375rem 0.55rem;
+    border-radius: 0.45rem;
+    white-space: nowrap;
+  }
+  .rank-chip--violet {
+    background: rgb(124 58 237 / 0.13);
+    color: var(--color-brand-soft);
+    box-shadow: inset 0 0 0 1px rgb(124 58 237 / 0.4);
+  }
+  .rank-chip--ember {
+    background: rgb(244 63 94 / 0.11);
+    color: var(--color-ember-soft);
+    box-shadow: inset 0 0 0 1px rgb(244 63 94 / 0.35);
+  }
+  .rank-chip--volt {
+    background: rgb(34 211 238 / 0.1);
+    color: var(--color-volt-soft);
+    box-shadow: inset 0 0 0 1px rgb(34 211 238 / 0.35);
+  }
+
+  /* Casa Haos sticker */
+  .sticker {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.4rem 0.7rem;
+    border-radius: 999px;
+    background: var(--color-sticker);
+    color: #241806;
+    transform: rotate(-2deg);
+    display: inline-block;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

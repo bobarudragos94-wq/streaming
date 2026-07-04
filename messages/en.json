@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "crew": "Crew",
+    "games": "Games",
+    "clips": "Clips",
+    "schedule": "Schedule",
+    "sponsors": "Partners",
+    "contact": "Contact",
+    "discord": "Join the Discord"
+  },
+  "hero": {
+    "eyebrow": "Romanian gaming & streaming crew",
+    "tagline": "Many heads. One lobby.",
+    "sub": "We play online, we play on the table, we film the chaos. Streams, IRL challenges and Catan nights that end friendships — all under one roof.",
+    "ctaPrimary": "Enter the lobby",
+    "ctaSecondary": "Meet the crew",
+    "lobbyTitle": "Lobby status",
+    "demoNote": "demo data"
+  },
+  "status": {
+    "live": "LIVE",
+    "queue": "IN QUEUE",
+    "recording": "RECORDING",
+    "offline": "OFFLINE"
+  },
+  "crew": {
+    "kicker": "Heads of the balaur",
+    "title": "The Crew",
+    "sub": "Six people, one balaur. Every head has its own main, its own rank and its own moments we're collectively ashamed of.",
+    "flipHint": "Tap the card for the persona",
+    "statWins": "wins",
+    "statHours": "hours in voice",
+    "statMain": "main"
+  },
+  "games": {
+    "kicker": "The playground",
+    "title": "What we play",
+    "online": "Online",
+    "onlineDesc": "Ranked until the neighbours complain.",
+    "board": "On the table",
+    "boardDesc": "Catan, betrayal and broken alliances.",
+    "party": "Party games",
+    "partyDesc": "Controlled chaos, for the clips.",
+    "irl": "IRL Challenges",
+    "irlDesc": "Real-world challenges with no save points. Loser pays — always."
+  },
+  "clips": {
+    "kicker": "Latest chaos",
+    "title": "Clips & moments",
+    "watch": "Watch on",
+    "soon": "Channels launch with the crew — clips will land here."
+  },
+  "schedule": {
+    "kicker": "Where to find us",
+    "title": "Schedule & events",
+    "upcoming": "Up next",
+    "tz": "Romanian time (EET)"
+  },
+  "story": {
+    "kicker": "The story",
+    "title": "A six-headed balaur",
+    "p1": "In Romanian folklore, the balaur is the many-headed creature that guards treasure. Ours guards a lobby: six friends from Romania who met through games and stayed for the chaos.",
+    "p2": "We're not an esports org with offices and contracts. We're the house where people scream at Valorant, trade sheep at Catan and film challenges we regret the next day. Streams, clips, tournaments between us — and soon, with you.",
+    "statMembers": "heads",
+    "statGames": "games in rotation",
+    "statRage": "rage quits",
+    "statFriendship": "friendship"
+  },
+  "sponsors": {
+    "kicker": "Lights on",
+    "title": "Partner with the balaur",
+    "body": "We're building a Romanian gaming audience — authentic, engaged and hard to bore. If your brand wants into the lobby, let's talk before the slots fill up.",
+    "slot": "Slot available",
+    "tierMain": "Main partner",
+    "tierGear": "Gear partner",
+    "tierEvent": "Event partner",
+    "cta": "Become a partner",
+    "mediaKit": "Media kit — coming soon"
+  },
+  "community": {
+    "kicker": "The lobby is open",
+    "title": "Join the community",
+    "body": "The Discord is our living room: stream announcements, challenge polls and the channel where we decide who pays for pizza.",
+    "cta": "Join the Discord",
+    "follow": "Follow us"
+  },
+  "contact": {
+    "kicker": "Collaborations",
+    "title": "Get in touch",
+    "name": "Your name",
+    "email": "Email",
+    "type": "Collaboration type",
+    "typeSponsor": "Sponsorship / partnership",
+    "typeCollab": "Content collaboration",
+    "typeEvent": "Event / tournament",
+    "typeOther": "Something else",
+    "message": "Your message",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent! We reply within 24–48h.",
+    "errorValidation": "Fill in all fields — including a valid email.",
+    "errorNotConfigured": "The form goes live at launch. Until then, email us directly:",
+    "errorGeneric": "Something went wrong. Try again or email us directly:"
+  },
+  "footer": {
+    "madeIn": "Made with ♥ and rage quits in Romania",
+    "rights": "All rights reserved.",
+    "placeholderNote": "Site under construction — demo data"
+  }
+}
