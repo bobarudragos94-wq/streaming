@@ -208,7 +208,7 @@ export function MemberCard({
               </span>
             </div>
 
-            <div className="mt-5 flex items-center gap-3">
+            <div className="mt-auto flex items-center gap-3">
               <span
                 className="flex size-11 shrink-0 items-center justify-center rounded-xl"
                 style={{
@@ -232,11 +232,7 @@ export function MemberCard({
               </div>
             </div>
 
-            <p className="mt-4 text-[12.5px] leading-relaxed text-dim">
-              {member.persona.lore[locale]}
-            </p>
-
-            <div className="mt-auto space-y-2.5 pt-4">
+            <div className="mt-3.5 space-y-2.5">
               {statRows.map(([label, value], i) => (
                 <div key={label} className="flex items-center gap-2.5">
                   <span className="w-[72px] shrink-0 font-mono text-[8.5px] uppercase tracking-[0.16em] text-dim">
