@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import { useReducedMotion } from "motion/react";
 import { useLocale, useTranslations } from "next-intl";
-import { BookOpen, Sword, Swords, Target, Waves, Zap } from "lucide-react";
+import { BookOpen, Sword, Swords, Target, Waves, Wind, Zap } from "lucide-react";
 import type { Member, Persona } from "@/content/members";
 import { site } from "@/content/site";
 import { PlatformIcon } from "./icons";
@@ -18,6 +18,7 @@ const sigils: Record<Persona["sigil"], typeof Swords> = {
   waves: Waves,
   sword: Sword,
   zap: Zap,
+  wind: Wind,
 };
 
 /**

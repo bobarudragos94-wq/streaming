@@ -21,7 +21,7 @@ export type Persona = {
   /** which head of the balaur this member is */
   head: { ro: string; en: string };
   element: { ro: string; en: string };
-  sigil: "swords" | "target" | "book" | "waves" | "sword" | "zap";
+  sigil: "swords" | "target" | "book" | "waves" | "sword" | "zap" | "wind";
   lore: { ro: string; en: string };
   /** 0–100, rendered as animated stat bars */
   stats: { attack: number; defense: number; mind: number; charisma: number };
@@ -152,12 +152,12 @@ export const members: Member[] = [
     status: "offline",
     persona: {
       class: { ro: "Călugăr al Liniștii", en: "Monk of Stillness" },
-      head: { ro: "Capul Apelor", en: "Head of Waters" },
-      element: { ro: "Apă", en: "Water" },
-      sigil: "waves",
+      head: { ro: "Capul Fulgerului", en: "Head of Lightning" },
+      element: { ro: "Fulger", en: "Lightning" },
+      sigil: "wind",
       lore: {
-        ro: "O respirație, un glonț. Furia e pentru cei fără aim.",
-        en: "One breath, one bullet. Rage is for those without aim.",
+        ro: "O respirație, un fulger. Furia e pentru cei fără aim.",
+        en: "One breath, one bolt. Rage is for those without aim.",
       },
       stats: { attack: 92, defense: 80, mind: 78, charisma: 60 },
     },
@@ -165,7 +165,7 @@ export const members: Member[] = [
       { platform: "twitch", url: "https://twitch.tv/REPLACE_ME" },
       { platform: "youtube", url: "https://youtube.com/@REPLACE_ME" },
     ],
-    hues: [190, 150],
+    hues: [205, 262],
     initials: "BO",
   },
   {

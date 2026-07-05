@@ -49,11 +49,12 @@ KEEP her glasses — thin gold frames catching the arcane light, dark hair as in
 the photo, red-lipstick confident half-smile, chess-piece rune motifs floating
 in the background.
 
-### 4. Bogdan — Călugăr al Liniștii, Capul Apelor (`bogdan`)
-Zen warrior-monk in flowing cream-linen robes (echoing his cream shirt), calm
-half-smile, water curling in slow ribbons around his hands, cyan-blue glow
-(hue 190), tropical leaves silhouetted in the dark background, trimmed beard
-and hair exactly as in the photo, radiating total stillness.
+### 4. Bogdan — Călugăr al Liniștii, Capul Fulgerului (`bogdan`)
+> Re-themed from water to **lightning** to match the generated art: a calm
+> monk who commands lightning (contrasts Itza's chaotic storm berserker).
+Zen warrior-monk in a dark torn coat, calm half-smile, controlled blue-violet
+lightning arcing slowly around one gauntleted hand (hues 205→262), trimmed
+beard and hair exactly as in the photo, radiating total stillness amid the storm.
 
 ### 5. Robert — Duelist al Amurgului, Capul Amurgului (`robert`)
 Dusk duelist-rogue in a tailored black asymmetric jacket with gold trim
